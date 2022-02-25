@@ -1,0 +1,50 @@
+.header {
+  background-color: rgb(217, 218, 219);
+  width: 100vw;
+  overflow-x: hidden;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.button {
+  width: 10%;
+  height: 30px;
+  border: 1px solid rgb(211, 211, 238);
+  border-radius: 5px;
+  position: relative;
+}
+.menulist {
+  display: none;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  overflow-x: hidden;
+  transition: width 2s linear 1s;
+}
+.menulist > ul{
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+  opacity: .95;
+  border-radius: 0px 0px 0px 120px;
+  transition: width 2s linear 1s;
+}
+
+.menulist li{
+  padding: 5px 0px;
+  width: 100%;
+  
+}
+
+.menulist li a{
+  padding: 2px 0px;
+  border-bottom: 2px solid  black;
+  
+}
+ul li a{
+  width: 100%;
+  }
+  #abcd{
+    display: none;
+  }

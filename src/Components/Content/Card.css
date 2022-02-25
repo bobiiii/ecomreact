@@ -1,0 +1,59 @@
+
+
+.card{
+    
+    display: flex;
+    width: 100vw;
+    overflow: scroll;
+    scroll-behavior:smooth;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+
+
+}
+.card-box  img{
+    width: 110px;
+    height: 80px;
+    border-radius: 5px;
+    
+    
+}
+.card-box{
+    background-color: rgba(190, 190, 190, 0.322);
+    margin: 0px 5px;
+    padding-bottom: 10px;
+    
+}
+
+.card-box-details{
+    display: grid;
+    place-items: center;
+    width: 100%;    
+}
+.card-box-details-price{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.card-box-stock{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.category h3{
+    text-align: center;
+    background-color: rgb(229, 231, 231);
+    width: 100vw;
+    height: 30px;
+    border-radius: 10px;
+    
+}
+.category{
+    
+    margin: 20px 0px;
+    display: grid;
+    place-items: center;
+}
