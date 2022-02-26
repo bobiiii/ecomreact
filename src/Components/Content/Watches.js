@@ -15,6 +15,7 @@ import "./Content.css"
           <div className='card'>
          {WatchesData.map(cards)} 
          
-         </div> </div>
+         </div>
+         <button>Show All</button> </div>
       )}
 export default Watches;

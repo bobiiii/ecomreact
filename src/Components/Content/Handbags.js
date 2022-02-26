@@ -15,7 +15,8 @@ import "./Content.css"
           <div className='card'>
          {HandbagsData.map(cards)} 
          
-         </div> </div>
+         </div> 
+         <button>Show All</button></div>
       )
 }
 export default Handbags;

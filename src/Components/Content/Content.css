@@ -4,3 +4,16 @@
     
     
 }
+.category button{
+    width: 90%;
+    height:30px;
+    background-color: rgba(214, 216, 216, 0.603);
+    border: 1px solid rgb(209, 206, 206);
+    border-radius: 5px;
+    color: rgb(70, 61, 61);
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+
+}

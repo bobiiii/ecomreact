@@ -3,13 +3,20 @@ import Header from "./Components/Header/Header"
 import Content from "./Components/Content/Content"
 import Footer from "./Components/Footer/Footer"
 import "./App.css"
-import { Router } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import FragnanceMain from "./Components/MainComp/FragnanceMain";
+import ShoesMain from "./Components/MainComp/ShoesMain";
 const App = () => {
   return (
     <>
     
       <Header/>
-      <Content/>
+      <Routes>
+        <Route path="/" element={<App/>}>
+        <Route path="fragnance" element={<FragnanceMain/>}/>
+        <Route path="shoes" element={<ShoesMain/>}/>
+</Route>
+      </Routes>
       <Footer/>
     
     </>

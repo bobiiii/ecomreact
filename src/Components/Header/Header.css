@@ -18,16 +18,18 @@
 .menulist {
   display: none;
   width: 100%;
+  
   position: absolute;
   text-align: center;
   overflow-x: hidden;
   transition: width 2s linear 1s;
 }
 .menulist > ul{
-    width: 100%;
+  height: 300px; 
+  width: 100%;
     background-color: rgb(216, 216, 216);
   opacity: .95;
-  border-radius: 0px 0px 0px 120px;
+  border-radius: 0px 0px 0px 250px;
   transition: width 2s linear 1s;
 }
 
@@ -39,7 +41,6 @@
 
 .menulist li a{
   padding: 2px 0px;
-  border-bottom: 2px solid  black;
   
 }
 ul li a{
@@ -47,4 +48,8 @@ ul li a{
   }
   #abcd{
     display: none;
+  }
+  .menulist img{
+    width: 20px;
+    margin: 0px 5px;
   }

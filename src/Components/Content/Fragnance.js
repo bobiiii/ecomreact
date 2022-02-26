@@ -14,8 +14,10 @@ return(
       <h3>Fragnance</h3>
       <div className='card'>
      {FragnanceData.map(cards)} 
+     </div> 
+     <button>Show All</button>
+     </div>
      
-     </div> </div>
   )
 }
 export default Fragnance;

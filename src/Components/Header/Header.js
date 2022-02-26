@@ -1,6 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Link } from "react-router-dom";
-import shoe from "../icons/shoe.ico"
+import { Link, Outlet } from "react-router-dom";
+import shoes from "../icons/shoes.png"
+import watch from "../icons/watch.png"
+import handbag from "../icons/handbag.png"
+import fragnance from "../icons/fragnance.png"
 import "./Header.css";
 const Header = () => {
   const ref = useRef();
@@ -50,18 +53,19 @@ const Header = () => {
       <div id="menulist" className="menulist">
         <ul ref={ref}>
           <li>
-            <Link to="#"><i>{shoe}</i>Shoes</Link>
+            <Link to="shoes"><img alt="image"  src={shoes}/>Shoes</Link>
           </li>
           <li>
-            <Link to="#">Fragnance</Link>
+            <Link to="fragnance"><img alt="image" src={fragnance}/>Fragnance</Link>
           </li>
           <li>
-            <Link to="#">Watches</Link>
+            <Link to="watches"><img alt="image" src={watch}/>Watches</Link>
           </li>
           <li>
-            <Link to="#">HandBags</Link>
+            <Link to="handbags"><img alt="image" src={handbag}/>HandBags</Link>
           </li>
         </ul>
+        <Outlet />
       </div>
     </>
   );
