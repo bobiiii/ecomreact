@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 const Card = (props) => {
-  return (
+  return (<>
     <div className="card-box">
       <img src={props.img} />
       <div className="card-box-details">
@@ -15,6 +15,7 @@ const Card = (props) => {
             </div></div>
       
     </div>
-  );
+    
+    </>);
 };
 export default Card;

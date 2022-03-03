@@ -1,0 +1,43 @@
+.box {
+    background-color: rgb(224, 224, 218);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+}
+
+.cardmain {
+    background-color: rgb(176, 176, 216);
+    border-radius: 0px 0px 5px 5px;
+
+
+}
+
+.cardmain img {
+width: 100%;
+    border-radius: 7px 7px 4px 4px;
+}
+
+.cardcont {
+    width: 150px;
+
+    margin: 20px 10px;
+}
+.cardmain-td{
+    text-align: center;
+}
+.cardmain-details {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-heading {
+    text-align: center;
+    width: 100vw;
+    height: 40px;
+    font-size: 30px;
+    background-color: rgb(241, 241, 240);
+}

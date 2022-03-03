@@ -1,5 +1,6 @@
 import React from 'react'
 import { FragnanceData } from './Data'
+import {Link} from "react-router-dom"
 import Card from './Card'
 import "./Content.css"
  const Fragnance = () => {
@@ -15,7 +16,7 @@ return(
       <div className='card'>
      {FragnanceData.map(cards)} 
      </div> 
-     <button>Show All</button>
+     <button><Link to="fragnance">Show All</Link></button>
      </div>
      
   )

@@ -65,7 +65,7 @@ const Header = () => {
             <Link to="handbags"><img alt="image" src={handbag}/>HandBags</Link>
           </li>
         </ul>
-        <Outlet />
+        
       </div>
     </>
   );
