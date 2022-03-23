@@ -1,0 +1,33 @@
+.product-main{
+    background-color: rgb(253, 253, 253);
+    width: 100vw;
+}
+.product-heading{
+    text-align: center;
+    background-color: rgba(231, 231, 231, 0.863);
+    width: 90%;
+    
+    margin: 10px auto;
+}
+.product-img {
+    width: 100vw;
+    height: max-content;
+    background-color: rgb(253, 253, 253);
+    padding: 15px 0px;
+}
+.product-img img{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    border-radius: 5px;
+}
+.product-details{
+}
+.details-justify{
+    background-color: rgb(243, 243, 243);
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
